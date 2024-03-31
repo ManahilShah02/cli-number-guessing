@@ -8,6 +8,7 @@ import inquirer from "inquirer";
 const randomNumber = Math.floor(Math.random()* 10 + 1);
 //console.log(randomNumber);
 //bcz if we don't comment it it wil gives us answer on cmd
+console.log("Welcome to Number Guessing Game");
 
 const answers = await inquirer.prompt([
     {
